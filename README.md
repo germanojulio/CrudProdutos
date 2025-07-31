@@ -1,6 +1,8 @@
 🛠️ Desafio Técnico – CRUD de Produtos
 Este projeto é a entrega do desafio técnico. Consiste em uma aplicação fullstack com autenticação, CRUD de produtos.
 
+-- --
+
 ✅ Visão Geral
 Parte	Descrição
 🔐 Login	Com usuário fixo (admin@b4you.dev) usando JWT
@@ -8,6 +10,8 @@ Parte	Descrição
 🖥️ Frontend	Next.js com Chakra UI + Axios
 🧪 Usuário de Teste
 Email: admin@b4you.dev Senha: 123456
+
+-- --
 
 📦 Tecnologias Utilizadas
 Backend
@@ -23,8 +27,13 @@ React
 Chakra UI
 Axios
 React Hook Form
+
+-- --
+
 📁 Estrutura de Pastas
 CrudProdutos/ ├── frontend-produtos/ # Next.js ├── controllers/ # Lógica de produto e login ├── routes/ # Rotas Express ├── models/ # Sequelize models ├── migrations/ # Sequelize migrations ├── middleware/ # Autenticação JWT ├── validators/ # Yup validation ├── config/ # Config do Sequelize └── server.js # API principal
+
+-- --
 
 🚀 Como rodar localmente
 🧩 Clonar o projeto
@@ -38,11 +47,11 @@ npm install
 Configurar .env
 
 Crie um arquivo .env com:
-JWT_SECRET=segredo_supersecreto
-DB_NAME=products_db
+JWT_SECRET=seusegredoaqui
+DB_NAME=api_produtos
 DB_USER=root
-DB_PASSWORD=JulioDev321
-DB_HOST=localhost
+DB_PASSWORD=sua_senha
+DB_HOST=127.0.0.1
 
 Executar as migrations
 npx sequelize-cli db:migrate
@@ -62,6 +71,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3000/api
 Rodar
 npm run dev
 
+-- --
 
 📋 Funcionalidades
 🔐 Autenticação (JWT)
@@ -81,6 +91,8 @@ DELETE	/products/:id	Remove produto
 
 Todos os campos validados com Yup.
 
+-- --
+
 Diferenciais já implementados
 
 ✅ Interceptor Axios com token automático
@@ -95,6 +107,8 @@ Diferenciais já implementados
 
 ✅ README completo com .env.example e instruções
 
+-- --
+
 📁 Exemplo .env
 Backend
 JWT_SECRET=segredo_supersecreto
@@ -106,12 +120,15 @@ DB_HOST=localhost
 Frontend
 NEXT_PUBLIC_API_URL=http://localhost:3000/api
 
+-- --
 
 ✨ Ideias de melhorias (em andamento)
  Deploy com Render + Vercel 🔜
 Upload de imagem dos produtos 🔜
 Busca 🔜
 CI/CD (GitHub Actions)	🔜
+
+-- --
 
 👨‍💻 Autor
 Feito por Júlio Germano
