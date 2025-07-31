@@ -129,11 +129,11 @@ Todos os campos validados com Yup.
 
 📁 Exemplo .env
 Backend
-JWT_SECRET=seusegredoaqui
-DB_NAME=api_produtos
+JWT_SECRET=segredo_supersecreto
+DB_NAME=products_db
 DB_USER=root
-DB_PASSWORD=senha
-DB_HOST=127.0.0.1
+DB_PASSWORD=JulioDev321
+DB_HOST=localhost
 
 Frontend
 NEXT_PUBLIC_API_URL=http://localhost:3000/api
