@@ -113,7 +113,7 @@ DELETE	/products/:id	Remove produto
 
 Todos os campos validados com Yup.
 
-✨ Diferenciais já implementados
+Diferenciais já implementados
 
 ✅ Interceptor Axios com token automático
 
