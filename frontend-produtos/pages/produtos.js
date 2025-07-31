@@ -23,7 +23,7 @@ export default function Produtos() {
   const toast = useToast();
 
   useEffect(() => {
-    setIsClient(true); // garante que estamos no client
+    setIsClient(true);
 
     const token = typeof window !== "undefined" ? localStorage.getItem("token") : null;
 
@@ -34,7 +34,7 @@ export default function Produtos() {
       return;
     }
 
-    setTokenStatus("Token detectado ✅");
+    setTokenStatus("Token validado ✅");
 
     const fetchProdutos = async () => {
       try {
