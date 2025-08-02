@@ -82,7 +82,7 @@ npx sequelize-cli db:seed:all
 Isso criará a tabela products com 5 produtos iniciais.
 
 Iniciar servidor
-npm run dev
+npx nodemon server.js
 
 💻 Frontend
 cd frontend-produtos
@@ -93,6 +93,8 @@ NEXT_PUBLIC_API_URL=http://localhost:3000/api
 
 Execute:
 npm run dev
+
+
 📋 Funcionalidades
 🔐 Autenticação (JWT)
 Login: POST /auth/login
